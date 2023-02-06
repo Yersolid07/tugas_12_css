@@ -1,0 +1,53 @@
+header {
+  background-color: rgb(51, 51, 51);
+  height: 40px;
+}
+ul {
+  list-style: none;
+  display: inline;
+  position: relative;
+  top: 10px;
+}
+li {
+  float: left;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+.card {
+  background-image: linear-gradient(to bottom right, rgba(253, 185, 253, 0.507), rgba(81, 255, 255, 0.445), rgba(102, 168, 255, 0.781), rgba(255, 255, 255, 0.541));
+  height: 1090px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+.slider-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 50%;
+  width: 1300px;
+  height: 650px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 26px 10px 0 25px;
+
+  float: left;
+}
+.p-text {
+  margin-top: 25px;
+  column-count: 4;
+  column-width: 100px;
+  column-rule: 1px solid black;
+  text-align: justify;
+  font-size: 15px;
+  margin-right: 15px;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 50px;
+}
